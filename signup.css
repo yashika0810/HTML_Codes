@@ -1,0 +1,161 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: whitesmoke;
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  /* background-image: url("Developer.webp"); */
+  font-size: 16px;
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+#login-box {
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px;
+}
+
+.left {
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  color: #16a085;
+  transition: 0.2s ease;
+  border-bottom: 2px solid #16a085;
+}
+
+input[type="submit"] {
+  width: 120px;
+  height: 32px;
+  background-color: #16a085;
+  border: none;
+  color: #fff;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px black;
+  transition: 0.2s ease;
+}
+
+.right {
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  right: 0;
+  padding: 40px;
+  width: 300px;
+}
+
+.loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+}
+button.social-signin {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px black;
+  transition: 0.2s ease;
+}
+button.social-signin:active {
+  box-shadow: 0 1px 2px black;
+  transition: 0.25px;
+}
+
+button.social-signin.facebook {
+  background-color: #32508e;
+}
+
+button.social-signin.twitter {
+  background-color: #55acee;
+}
+
+button.social-signin.google {
+  background-color: white;
+  color: #dd4b39;
+  border-color: #dd4b39;
+  border-style: solid;
+  border-width: 2px;
+}
+
+button.social-signin.google:hover {
+  background-color: #dd4b39;
+  color: white;
+}
